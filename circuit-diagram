@@ -1,0 +1,9 @@
+## Circuit Connections
+| Component       | ESP32 Pin |
+|----------------|-----------|
+| OLED VCC       | 3.3V      |
+| OLED GND       | GND       |
+| OLED SDA       | GPIO 21   |
+| OLED SCL       | GPIO 22   |
+| Button 1       | GPIO 12 ↔️ GND |
+| Button 2       | GPIO 14 ↔️ GND |
