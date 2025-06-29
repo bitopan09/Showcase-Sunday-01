@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(express.json());
-const GEMINI_API_KEY = "AIzaSyC8YlNjae83qnN8vD5mZUZFAqcgOUwVIqo"; 
+const GEMINI_API_KEY = "yourpasskey"; 
 const GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 const GEMINI_MODEL = "gemini-1.5-flash"; 
 app.post("/gemini", async (req, res) => {
